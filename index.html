@@ -1,221 +1,284 @@
-export default function AishwaryaProfilePage() {
-  const skills = [
-    "Performance Management",
-    "HRBP",
-    "Learning & Development",
-    "Talent Acquisition",
-    "HR Operations",
-    "Darwinbox HRIS",
-    "Employee Engagement",
-    "OKR Goal Setting",
-    "Leadership Development",
-    "HR Analytics",
-    "Policy & Compliance",
-    "Campus Hiring",
-  ];
+<!DOCTYPE html>
+<html lang="en">
 
-  const experience = [
-    {
-      role: "Lead – People Services",
-      company: "Opteamix",
-      duration: "Aug 2024 – Mar 2026",
-      points: [
-        "Leading organization-wide Performance Management Systems through OKR-based goal setting and quarterly reviews.",
-        "Driving Learning & Development initiatives including leadership development and capability-building programs.",
-        "Managing HRIS automation and Darwinbox implementation for performance and training workflows.",
-        "Presenting HR analytics and people metrics to leadership and CEO.",
-      ],
-    },
-    {
-      role: "Manager – Operations & Talent Acquisition",
-      company: "Qualibar Pvt Ltd",
-      duration: "Jan 2021 – Oct 2023",
-      points: [
-        "Managed end-to-end recruitment for India & US operations.",
-        "Led a team of 16 HR and recruitment professionals.",
-        "Handled onboarding, HR operations, employee engagement, and policy creation.",
-        "Developed HR documents including handbooks, appraisal systems, and onboarding frameworks.",
-      ],
-    },
-    {
-      role: "HR Business Partner",
-      company: "Drafticode",
-      duration: "Feb 2019 – Jan 2021",
-      points: [
-        "Aligned HR initiatives with organizational goals through strategic HRBP support.",
-        "Managed employee engagement, performance reviews, and recognition programs.",
-        "Handled employee relations and HR process digitization initiatives.",
-      ],
-    },
-    {
-      role: "IT Recruiter",
-      company: "Huawei Technologies",
-      duration: "Apr 2018 – Jan 2019",
-      points: [
-        "Managed technical recruitment lifecycle including sourcing, screening, and offer closure.",
-        "Built strong passive candidate pipelines through LinkedIn and referrals.",
-      ],
-    },
-    {
-      role: "Team Leader – Recruitment",
-      company: "Ayant Software Pvt Ltd",
-      duration: "Nov 2015 – Apr 2017",
-      points: [
-        "Led a team of 30 recruiters for India and US staffing operations.",
-        "Managed campus hiring, recruitment strategy, and client staffing requirements.",
-      ],
-    },
-  ];
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full opacity-20 bg-[radial-gradient(circle_at_top_right,_#3b82f6,_transparent_30%),radial-gradient(circle_at_bottom_left,_#8b5cf6,_transparent_30%)]"></div>
+  <title>Aishwarya Singh | HR Leader</title>
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-10">
+  <script src="https://cdn.tailwindcss.com"></script>
 
-        {/* HERO */}
-        <div className="grid lg:grid-cols-3 gap-8 items-center mb-14">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(59,130,246,0.15), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(139,92,246,0.15), transparent 30%),
+        #020617;
+    }
+  </style>
+</head>
 
-          <div className="lg:col-span-2 bg-white/10 backdrop-blur-xl border border-white/10 rounded-[32px] p-10 shadow-2xl">
-            <p className="uppercase tracking-[5px] text-blue-300 text-sm mb-4 font-medium">
-              HR Leader • People Strategist • HRBP
-            </p>
+<body class="text-white">
 
-            <h1 className="text-5xl md:text-7xl font-black leading-tight mb-5">
-              Aishwarya <span className="text-blue-400">Singh</span>
-            </h1>
+  <div class="max-w-7xl mx-auto px-6 py-10">
 
-            <p className="text-xl text-slate-300 leading-9 max-w-3xl mb-8">
-              Strategic HR professional with 9+ years of experience across
-              Performance Management, HRBP, Talent Acquisition, Learning & Development,
-              and HR Operations. Passionate about building scalable people systems,
-              leadership development, and driving business growth through impactful HR strategies.
-            </p>
+    <!-- HERO -->
+    <div class="grid lg:grid-cols-3 gap-8 items-center mb-14">
 
-            <div className="flex flex-wrap gap-4 text-sm">
-              <div className="bg-white/10 px-5 py-3 rounded-full border border-white/10">📍 Bengaluru, India</div>
-              <div className="bg-white/10 px-5 py-3 rounded-full border border-white/10">📧 aishwarya.singh303@gmail.com</div>
-              <div className="bg-white/10 px-5 py-3 rounded-full border border-white/10">📞 +91 9999644769</div>
-            </div>
+      <div class="lg:col-span-2 bg-white/10 backdrop-blur-xl border border-white/10 rounded-[32px] p-10 shadow-2xl">
+
+        <p class="uppercase tracking-[5px] text-blue-300 text-sm mb-4 font-medium">
+          HR Leader • People Strategist • HRBP
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-black leading-tight mb-5">
+          Aishwarya <span class="text-blue-400">Singh</span>
+        </h1>
+
+        <p class="text-xl text-slate-300 leading-9 max-w-3xl mb-8">
+          Strategic HR professional with 9+ years of experience across
+          Performance Management, HRBP, Talent Acquisition,
+          Learning & Development, and HR Operations.
+          Passionate about building scalable people systems and
+          driving business growth through impactful HR strategies.
+        </p>
+
+        <div class="flex flex-wrap gap-4 text-sm">
+
+          <div class="bg-white/10 px-5 py-3 rounded-full border border-white/10">
+            📍 Bengaluru, India
           </div>
 
-          <div className="bg-gradient-to-br from-blue-500 to-violet-600 rounded-[32px] p-10 shadow-2xl h-full flex flex-col justify-center">
-            <h2 className="text-6xl font-black mb-3">9+</h2>
-            <p className="text-2xl font-semibold mb-5">Years Experience</p>
-            <p className="text-white/90 leading-8 text-lg">
-              Experienced in building modern HR functions, scaling teams,
-              driving PMS transformations, and partnering with leadership teams.
-            </p>
-          </div>
-        </div>
-
-        {/* SKILLS */}
-        <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[32px] p-10 shadow-2xl mb-14">
-          <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
-            <h2 className="text-4xl font-bold">Core Expertise</h2>
-            <div className="h-[2px] flex-1 bg-gradient-to-r from-blue-400 to-transparent"></div>
+          <div class="bg-white/10 px-5 py-3 rounded-full border border-white/10">
+            📧 aishwarya.singh303@gmail.com
           </div>
 
-          <div className="flex flex-wrap gap-4">
-            {skills.map((skill, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-r from-blue-500/20 to-violet-500/20 border border-white/10 px-6 py-4 rounded-2xl text-white font-medium hover:scale-105 transition-all duration-300"
-              >
-                {skill}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* EXPERIENCE */}
-        <div className="mb-14">
-          <div className="flex items-center gap-5 mb-10">
-            <h2 className="text-4xl font-bold whitespace-nowrap">Professional Experience</h2>
-            <div className="h-[2px] w-full bg-gradient-to-r from-blue-400 to-transparent"></div>
+          <div class="bg-white/10 px-5 py-3 rounded-full border border-white/10">
+            📞 +91 9999644769
           </div>
 
-          <div className="space-y-8">
-            {experience.map((job, index) => (
-              <div
-                key={index}
-                className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl hover:translate-y-[-4px] transition-all duration-300"
-              >
-                <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
-                  <div>
-                    <h3 className="text-3xl font-bold mb-2">{job.role}</h3>
-                    <p className="text-blue-300 text-xl font-medium">{job.company}</p>
-                  </div>
-
-                  <div className="bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-3 rounded-full text-sm font-semibold w-fit">
-                    {job.duration}
-                  </div>
-                </div>
-
-                <ul className="space-y-4 text-slate-300 text-lg leading-8">
-                  {job.points.map((point, i) => (
-                    <li key={i} className="flex gap-3">
-                      <span className="text-blue-400 mt-1">✦</span>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* EDUCATION + CERTIFICATIONS */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-14">
-          <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl">
-            <h2 className="text-3xl font-bold mb-8">Education</h2>
-
-            <div className="space-y-6 text-slate-300 text-lg">
-              <div>
-                <h3 className="text-xl text-white font-semibold">PG Certificate Programme</h3>
-                <p>IIM Tiruchirappalli</p>
-              </div>
-
-              <div>
-                <h3 className="text-xl text-white font-semibold">B.Tech / B.E.</h3>
-                <p>ITER</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl">
-            <h2 className="text-3xl font-bold mb-8">Certifications</h2>
-
-            <div className="space-y-5 text-slate-300 text-lg">
-              <div className="flex gap-4">
-                <span>🏆</span>
-                <span>OKR Certification: Leadership & Goal Setting</span>
-              </div>
-
-              <div className="flex gap-4">
-                <span>🏆</span>
-                <span>Learning & Development with Generative AI</span>
-              </div>
-
-              <div className="flex gap-4">
-                <span>🏆</span>
-                <span>Introduction to HR Business Partnering</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* FOOTER */}
-        <div className="text-center py-10 border-t border-white/10">
-          <p className="text-2xl font-semibold text-white mb-3">
-            Building People Strategies That Drive Business Growth
-          </p>
-
-          <p className="text-slate-400 text-lg">
-            HR Leadership • PMS • HRBP • L&D • Talent Strategy
-          </p>
         </div>
       </div>
+
+      <div class="bg-gradient-to-br from-blue-500 to-violet-600 rounded-[32px] p-10 shadow-2xl h-full flex flex-col justify-center">
+
+        <h2 class="text-6xl font-black mb-3">9+</h2>
+
+        <p class="text-2xl font-semibold mb-5">
+          Years Experience
+        </p>
+
+        <p class="text-white/90 leading-8 text-lg">
+          Experienced in building modern HR functions,
+          scaling teams, driving PMS transformations,
+          and partnering with leadership teams.
+        </p>
+
+      </div>
+
     </div>
-  );
-}
+
+    <!-- SKILLS -->
+    <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[32px] p-10 shadow-2xl mb-14">
+
+      <div class="flex items-center gap-5 mb-8">
+        <h2 class="text-4xl font-bold whitespace-nowrap">
+          Core Expertise
+        </h2>
+
+        <div class="h-[2px] w-full bg-gradient-to-r from-blue-400 to-transparent"></div>
+      </div>
+
+      <div class="flex flex-wrap gap-4">
+
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Performance Management</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">HRBP</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Learning & Development</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Talent Acquisition</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Darwinbox HRIS</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Employee Engagement</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">OKR Goal Setting</div>
+        <div class="bg-blue-500/20 px-6 py-4 rounded-2xl">Leadership Development</div>
+
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="mb-14">
+
+      <div class="flex items-center gap-5 mb-10">
+
+        <h2 class="text-4xl font-bold whitespace-nowrap">
+          Professional Experience
+        </h2>
+
+        <div class="h-[2px] w-full bg-gradient-to-r from-blue-400 to-transparent"></div>
+
+      </div>
+
+      <!-- JOB 1 -->
+      <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl mb-8">
+
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+
+          <div>
+            <h3 class="text-3xl font-bold mb-2">
+              Lead – People Services
+            </h3>
+
+            <p class="text-blue-300 text-xl font-medium">
+              Opteamix
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-3 rounded-full text-sm font-semibold w-fit">
+            Aug 2024 – Mar 2026
+          </div>
+
+        </div>
+
+        <ul class="space-y-4 text-slate-300 text-lg leading-8">
+
+          <li>✦ Led organization-wide PMS initiatives using OKRs.</li>
+          <li>✦ Managed leadership development and L&D programs.</li>
+          <li>✦ Handled HR automation and Darwinbox implementation.</li>
+          <li>✦ Presented HR analytics and people metrics to leadership.</li>
+
+        </ul>
+
+      </div>
+
+      <!-- JOB 2 -->
+      <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl mb-8">
+
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+
+          <div>
+            <h3 class="text-3xl font-bold mb-2">
+              Manager – Operations & Talent Acquisition
+            </h3>
+
+            <p class="text-blue-300 text-xl font-medium">
+              Qualibar Pvt Ltd
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-3 rounded-full text-sm font-semibold w-fit">
+            Jan 2021 – Oct 2023
+          </div>
+
+        </div>
+
+        <ul class="space-y-4 text-slate-300 text-lg leading-8">
+
+          <li>✦ Managed India & US recruitment operations.</li>
+          <li>✦ Led a team of 16 HR professionals.</li>
+          <li>✦ Handled HR operations and employee relations.</li>
+          <li>✦ Created HR policies and onboarding frameworks.</li>
+
+        </ul>
+
+      </div>
+
+      <!-- JOB 3 -->
+      <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl mb-8">
+
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+
+          <div>
+            <h3 class="text-3xl font-bold mb-2">
+              HR Business Partner
+            </h3>
+
+            <p class="text-blue-300 text-xl font-medium">
+              Drafticode
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-r from-blue-500 to-violet-500 px-5 py-3 rounded-full text-sm font-semibold w-fit">
+            Feb 2019 – Jan 2021
+          </div>
+
+        </div>
+
+        <ul class="space-y-4 text-slate-300 text-lg leading-8">
+
+          <li>✦ Managed employee engagement and HRBP initiatives.</li>
+          <li>✦ Supported performance management and policy implementation.</li>
+          <li>✦ Led employee relations and HR process digitization.</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="grid lg:grid-cols-2 gap-8 mb-14">
+
+      <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl">
+
+        <h2 class="text-3xl font-bold mb-8">
+          Education
+        </h2>
+
+        <div class="space-y-6 text-slate-300 text-lg">
+
+          <div>
+            <h3 class="text-xl text-white font-semibold">
+              PG Certificate Programme
+            </h3>
+
+            <p>IIM Tiruchirappalli</p>
+          </div>
+
+          <div>
+            <h3 class="text-xl text-white font-semibold">
+              B.Tech / B.E.
+            </h3>
+
+            <p>ITER</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[28px] p-8 shadow-2xl">
+
+        <h2 class="text-3xl font-bold mb-8">
+          Certifications
+        </h2>
+
+        <div class="space-y-5 text-slate-300 text-lg">
+
+          <div>🏆 OKR Certification: Leadership & Goal Setting</div>
+          <div>🏆 Learning & Development with Generative AI</div>
+          <div>🏆 Introduction to HR Business Partnering</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="text-center py-10 border-t border-white/10">
+
+      <p class="text-2xl font-semibold text-white mb-3">
+        Building People Strategies That Drive Business Growth
+      </p>
+
+      <p class="text-slate-400 text-lg">
+        HR Leadership • PMS • HRBP • L&D • Talent Strategy
+      </p>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
