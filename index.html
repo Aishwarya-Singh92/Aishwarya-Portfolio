@@ -8,7 +8,7 @@ Aishwarya Singh
 
 <head>
 
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <title>Aishwarya Singh | People & Culture Leader</title>
@@ -30,7 +30,6 @@ Aishwarya Singh
     }
 
     body{
-
       background:
       radial-gradient(circle at top right, rgba(139,92,246,.18), transparent 25%),
       radial-gradient(circle at bottom left, rgba(59,130,246,.18), transparent 25%),
@@ -186,7 +185,7 @@ Aishwarya Singh
       background:#f9fafb;
     }
 
-    /* PROFILE CARD */
+    /* PROFILE */
 
     .profile-card{
 
@@ -270,8 +269,6 @@ Aishwarya Singh
       border-radius:45px;
       padding:80px;
       color:white;
-
-      box-shadow:0 20px 50px rgba(0,0,0,.12);
     }
 
     .philosophy h2{
@@ -300,19 +297,12 @@ Aishwarya Singh
     }
 
     .card{
-
       background:rgba(255,255,255,.75);
-
       backdrop-filter:blur(20px);
-
       border:1px solid rgba(255,255,255,.5);
-
       border-radius:35px;
-
       padding:35px;
-
       box-shadow:0 10px 30px rgba(0,0,0,.05);
-
       transition:.3s;
     }
 
@@ -398,90 +388,6 @@ Aishwarya Singh
       line-height:1.8;
     }
 
-    /* AI SECTION */
-
-    .ai-section{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:40px;
-      align-items:center;
-    }
-
-    .ai-box{
-
-      background:linear-gradient(
-      135deg,
-      #111827,
-      #312e81
-      );
-
-      color:white;
-
-      padding:65px;
-
-      border-radius:40px;
-
-      box-shadow:0 20px 50px rgba(0,0,0,.15);
-    }
-
-    .ai-box p{
-      color:#d1d5db;
-    }
-
-    .cert-grid{
-      display:grid;
-      gap:20px;
-    }
-
-    .cert{
-
-      background:rgba(255,255,255,.8);
-
-      backdrop-filter:blur(20px);
-
-      border:1px solid rgba(255,255,255,.5);
-
-      border-radius:25px;
-
-      padding:25px;
-
-      box-shadow:0 8px 25px rgba(0,0,0,.05);
-
-      font-size:20px;
-
-      font-weight:600;
-
-      transition:.3s;
-    }
-
-    .cert:hover{
-      transform:translateY(-5px);
-    }
-
-    /* EDUCATION */
-
-    .education-grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:30px;
-    }
-
-    /* FOOTER */
-
-    footer{
-      text-align:center;
-      padding:90px 20px;
-    }
-
-    footer h2{
-      font-size:40px;
-      margin-bottom:20px;
-    }
-
-    footer p{
-      font-size:18px;
-    }
-
     /* MOBILE */
 
     @media(max-width:1000px){
@@ -489,9 +395,7 @@ Aishwarya Singh
       .hero-grid,
       .expertise-grid,
       .achievement-grid,
-      .grid-2,
-      .ai-section,
-      .education-grid{
+      .grid-2{
         grid-template-columns:1fr;
       }
 
@@ -536,6 +440,8 @@ Aishwarya Singh
 
     <div class="container hero-grid">
 
+      <!-- LEFT -->
+
       <div>
 
         <div class="mini-title">
@@ -574,8 +480,17 @@ Aishwarya Singh
 
         <div class="buttons">
 
-<a href="resume.pdf" download class="btn btn-dark">
+          <!-- RESUME BUTTON -->
+
+          <a
+            href="./resume.pdf"
+            target="_blank"
+            class="btn btn-dark"
+          >
+            Download Resume
           </a>
+
+          <!-- LINKEDIN -->
 
           <a
             href="https://linkedin.com/in/asingh92"
@@ -589,7 +504,7 @@ Aishwarya Singh
 
       </div>
 
-      <!-- PROFILE -->
+      <!-- RIGHT -->
 
       <div>
 
@@ -621,566 +536,6 @@ Aishwarya Singh
     </div>
 
   </section>
-
-  <!-- PHILOSOPHY -->
-
-  <section>
-
-    <div class="container">
-
-      <div class="philosophy">
-
-        <div class="mini-title" style="color:#c4b5fd;">
-          My Philosophy
-        </div>
-
-        <h2>
-
-          “HR is not just a function — it is a strategic force that shapes
-          how people feel, grow and contribute.”
-
-        </h2>
-
-        <div class="grid-2">
-
-          <p>
-
-            I believe modern HR should combine empathy, systems thinking,
-            technology, AI, and business alignment to build
-            high-performing organizations.
-
-          </p>
-
-          <p>
-
-            My work focuses on creating scalable HR frameworks,
-            empowering teams, and leveraging HRMS, analytics,
-            automation, and AI to improve employee experience
-            and organizational growth.
-
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- STRATEGIC EXPERTISE -->
-
-  <section>
-
-    <div class="container">
-
-      <h2 class="section-title">
-        Strategic Expertise
-      </h2>
-
-      <div class="expertise-grid">
-
-        <div class="card">
-
-          <h3>
-            Performance & Growth
-          </h3>
-
-          <div class="skill">Performance Management</div>
-          <div class="skill">Leadership Development</div>
-          <div class="skill">Capability Building</div>
-          <div class="skill">Learning Strategy</div>
-
-        </div>
-
-        <div class="card">
-
-          <h3>
-            HR Transformation
-          </h3>
-
-          <div class="skill">HRMS & Automation</div>
-          <div class="skill">Process Digitization</div>
-          <div class="skill">HR Analytics</div>
-          <div class="skill">Policy Frameworks</div>
-
-        </div>
-
-        <div class="card">
-
-          <h3>
-            Talent & Culture
-          </h3>
-
-          <div class="skill">Talent Acquisition</div>
-          <div class="skill">Employee Experience</div>
-          <div class="skill">HRBP</div>
-          <div class="skill">Stakeholder Management</div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- AI TOOLS -->
-
-  <section>
-
-    <div class="container">
-
-      <h2 class="section-title">
-        AI, Tools & HR Innovation
-      </h2>
-
-      <div class="expertise-grid">
-
-        <div class="card">
-
-          <h3>
-            AI-Driven HR Concepts
-          </h3>
-
-          <p>
-
-            Exploring AI-assisted employee engagement systems,
-            AI-enabled learning frameworks, capability-building solutions,
-            and future-of-work innovation strategies.
-
-          </p>
-
-        </div>
-
-        <div class="card">
-
-          <h3>
-            HR Tools & Workflow Development
-          </h3>
-
-          <p>
-
-            Worked on conceptualizing HR tools, workflow automations,
-            process digitization ideas, employee experience systems,
-            and scalable HR operational frameworks.
-
-          </p>
-
-        </div>
-
-        <div class="card">
-
-          <h3>
-            Self-Learning & Technology
-          </h3>
-
-          <p>
-
-            Built this portfolio website independently using AI-assisted workflows,
-            combining creativity, technology curiosity,
-            and future-ready HR thinking.
-
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- EXPERIENCE -->
-
-  <section class="experience">
-
-    <div class="container">
-
-      <h2 class="section-title">
-        Career Journey
-      </h2>
-
-      <!-- OPTEAMIX -->
-
-      <div class="exp-card">
-
-        <div class="exp-top">
-
-          <div>
-
-            <h3>
-              Lead – Performance Management, Training & Development
-            </h3>
-
-            <h4>
-              Opteamix
-            </h4>
-
-          </div>
-
-          <div class="duration">
-            Aug 2024 – Mar 2026
-          </div>
-
-        </div>
-
-        <div class="achievement-grid">
-
-          <div class="achievement">
-            Led enterprise-wide Performance Management Systems and OKR-driven frameworks.
-          </div>
-
-          <div class="achievement">
-            Drove Leadership Development and capability-building initiatives.
-          </div>
-
-          <div class="achievement">
-            Managed HRMS automation and process optimization through Darwinbox.
-          </div>
-
-          <div class="achievement">
-            Presented people analytics and HR insights to leadership and CEO.
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- QUALIBAR -->
-
-      <div class="exp-card">
-
-        <div class="exp-top">
-
-          <div>
-
-            <h3>
-              Manager – Operations & Talent Acquisition
-            </h3>
-
-            <h4>
-              Qualibar Pvt Ltd
-            </h4>
-
-          </div>
-
-          <div class="duration">
-            Jan 2021 – Oct 2023
-          </div>
-
-        </div>
-
-        <div class="achievement-grid">
-
-          <div class="achievement">
-            Managed a 16-member HR & recruitment team across India and US operations.
-          </div>
-
-          <div class="achievement">
-            Built HR policies, onboarding frameworks, and documentation systems.
-          </div>
-
-          <div class="achievement">
-            Led end-to-end recruitment, employee engagement, and HR operations.
-          </div>
-
-          <div class="achievement">
-            Designed scalable HR processes for high-growth environments.
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- GE -->
-
-      <div class="exp-card">
-
-        <div class="exp-top">
-
-          <div>
-
-            <h3>
-              HRBP / Consultant – Deployed at GE
-            </h3>
-
-            <h4>
-              Drafticode
-            </h4>
-
-          </div>
-
-          <div class="duration">
-            Feb 2019 – Jan 2021
-          </div>
-
-        </div>
-
-        <div class="achievement-grid">
-
-          <div class="achievement">
-            Supported capability planning, workforce alignment, and organizational initiatives at GE.
-          </div>
-
-          <div class="achievement">
-            Collaborated with leadership teams on HR strategy and employee engagement.
-          </div>
-
-          <div class="achievement">
-            Worked on HRMS implementation, onboarding redesign, and process improvements.
-          </div>
-
-          <div class="achievement">
-            Led HRBP initiatives covering performance management, employee relations, and culture.
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- HUAWEI -->
-
-      <div class="exp-card">
-
-        <div class="exp-top">
-
-          <div>
-
-            <h3>
-              IT Recruiter
-            </h3>
-
-            <h4>
-              Huawei Technologies
-            </h4>
-
-          </div>
-
-          <div class="duration">
-            Apr 2018 – Jan 2019
-          </div>
-
-        </div>
-
-        <div class="achievement-grid">
-
-          <div class="achievement">
-            Managed full-cycle technical recruitment and stakeholder coordination.
-          </div>
-
-          <div class="achievement">
-            Built sourcing pipelines through LinkedIn and referrals.
-          </div>
-
-          <div class="achievement">
-            Handled interview scheduling, negotiations, and offer management.
-          </div>
-
-          <div class="achievement">
-            Managed hiring delivery across multiple technical requirements.
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- AYANT -->
-
-      <div class="exp-card">
-
-        <div class="exp-top">
-
-          <div>
-
-            <h3>
-              Team Leader – Recruitment
-            </h3>
-
-            <h4>
-              Ayant Software Pvt Ltd
-            </h4>
-
-          </div>
-
-          <div class="duration">
-            Nov 2015 – Apr 2017
-          </div>
-
-        </div>
-
-        <div class="achievement-grid">
-
-          <div class="achievement">
-            Led a recruitment team of 30 members across India & US staffing operations.
-          </div>
-
-          <div class="achievement">
-            Managed campus hiring and staffing strategies.
-          </div>
-
-          <div class="achievement">
-            Built innovative recruitment workflows and sourcing strategies.
-          </div>
-
-          <div class="achievement">
-            Managed client coordination and technical recruitment operations.
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- CERTIFICATIONS -->
-
-  <section>
-
-    <div class="container ai-section">
-
-      <div class="ai-box">
-
-        <div class="mini-title" style="color:#c4b5fd;">
-          Future of HR
-        </div>
-
-        <h2 style="font-size:52px; margin:20px 0;">
-
-          AI, HR Transformation & Future-Ready Workplaces
-
-        </h2>
-
-        <p style="margin-bottom:25px;">
-
-          Passionate about exploring how AI, automation,
-          analytics, and digital systems can reshape employee experience,
-          learning, engagement, and organizational growth.
-
-        </p>
-
-        <p>
-
-          Strong believer in combining people strategy,
-          technology, innovation, and AI-driven thinking
-          to build modern workplaces.
-
-        </p>
-
-      </div>
-
-      <div class="cert-grid">
-
-        <div class="cert">
-          Leveraging Agentic AI in HR
-        </div>
-
-        <div class="cert">
-          Generative AI Masterminds
-        </div>
-
-        <div class="cert">
-          Learning & Development with Generative AI
-        </div>
-
-        <div class="cert">
-          OKR Certification: Leadership & Goal Setting
-        </div>
-
-        <div class="cert">
-          Introduction to HRBP
-        </div>
-
-        <div class="cert">
-          The Shape of Work
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- EDUCATION -->
-
-  <section>
-
-    <div class="container">
-
-      <h2 class="section-title">
-        Education
-      </h2>
-
-      <div class="education-grid">
-
-        <div class="card">
-
-          <h3>
-            PG Certificate Programme
-          </h3>
-
-          <p>
-            Indian Institute of Management, Tiruchirappalli
-          </p>
-
-          <br>
-
-          <p>
-            2026
-          </p>
-
-        </div>
-
-        <div class="card">
-
-          <h3>
-            B.Tech / B.E.
-          </h3>
-
-          <p>
-            ITER
-          </p>
-
-          <br>
-
-          <p>
-            2014
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer>
-
-    <h2>
-
-      Building High-Performance Cultures Through People,
-      Strategy & Innovation.
-
-    </h2>
-
-    <p>
-      Bengaluru, India
-    </p>
-
-    <br>
-
-    <p>
-
-      Performance Management • HR Transformation • HRMS • Talent Strategy • AI-Driven HR
-
-    </p>
-
-  </footer>
 
 </body>
 
